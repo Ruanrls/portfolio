@@ -6,6 +6,11 @@
   "repository": "https://github.com/Ruanrls/portfolio.git",
   "author": "Ruan Silva",
   "license": "AGPL-3.0-or-later",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "dependencies": {
     "next": "^13.4.9",
     "nextra": "^2.10.0",
