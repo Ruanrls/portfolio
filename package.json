@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A nextra app designed to be my portfolio",
+  "main": "index.js",
+  "repository": "https://github.com/Ruanrls/portfolio.git",
+  "author": "Ruan Silva",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "next": "^13.4.9",
+    "nextra": "^2.10.0",
+    "nextra-theme-docs": "^2.10.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "typescript": "*"
+  }
+}
