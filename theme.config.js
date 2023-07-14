@@ -117,5 +117,21 @@ export default {
     
     return "Contents";
   }
+ },
+ head() { 
+
+    return (
+      <>
+        <link
+          rel="shortcut icon"
+          href="/icons/development.png"
+        />
+          <link rel="icon" href="/icons/development.png" />
+        <link
+          rel="apple-touch-icon"
+          href="/icons/development.png"
+        />
+      </>
+    )
  }
 };
