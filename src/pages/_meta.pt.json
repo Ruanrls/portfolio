@@ -1,0 +1,20 @@
+{
+    "index": {
+        "title": "Home",
+        "theme": {
+            "breadcrumb": false
+        }
+    },
+    "about": {
+        "title": "Sobre",
+        "theme": {
+            "breadcrumb": false
+        }
+    },
+    "projects": {
+        "title": "Projetos",
+        "theme": {
+            "breadcrumb": false
+        }
+    }
+}
