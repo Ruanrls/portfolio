@@ -1,17 +1,10 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
 import ChatHeaderIcon from "./src/components/ChatHeaderIcon";
+import Logo from "./src/components/Logo";
 
 export default {
-  logo: (
-    <Image
-      src="/images/me.jpeg"
-      alt="My photo"
-      width={30}
-      height={30}
-      style={{ borderRadius: "50%" }}
-    />
-  ),
+  logo: <Logo />,
   logoLink: "/",
   project: {
     link: "https://github.com/Ruanrls",
