@@ -14,7 +14,7 @@ export default {
   ),
   logoLink: "/",
   project: {
-    link: "https://github.com/Ruanrls/portfolio",
+    link: "https://github.com/Ruanrls",
   },
   chat: {
     link: "https://linkedin.com/in/ruan-rls",
