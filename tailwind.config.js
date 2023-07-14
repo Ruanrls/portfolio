@@ -14,5 +14,6 @@ module.exports = {
     function ({ addVariant }) {
       addVariant("every", "& > *");
     },
+    require("@tailwindcss/aspect-ratio"),
   ],
 };

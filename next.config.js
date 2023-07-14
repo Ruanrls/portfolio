@@ -9,4 +9,7 @@ module.exports = withNextra({
     defaultLocale: "default",
     localeDetection: true,
   },
+  images: {
+    domains: ["scontent.cdninstagram.com"],
+  },
 });

@@ -12,6 +12,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
     "next": "^13.4.9",
     "nextra": "^2.10.0",
     "nextra-theme-docs": "^2.10.0",
