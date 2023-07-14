@@ -1,5 +1,4 @@
-import React, { useMemo } from "react";
-import { useTheme } from "nextra-theme-docs";
+import React from "react";
 
 type Props = {
   width: number;
@@ -7,13 +6,6 @@ type Props = {
 };
 
 const ChatHeaderIcon = ({ width, height }: Props) => {
-  const { theme } = useTheme();
-
-  const fill = useMemo(
-    () => (!theme || theme === "dark" ? "#fff" : "#000"),
-    [theme]
-  );
-
   return (
     <svg
       version="1.0"
@@ -28,7 +20,7 @@ const ChatHeaderIcon = ({ width, height }: Props) => {
       </metadata>
       <g
         transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
-        fill={fill}
+        className='dark:fill-white fill-black'
         stroke="none"
       >
         <path

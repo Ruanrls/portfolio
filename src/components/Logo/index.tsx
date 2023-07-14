@@ -12,7 +12,7 @@ const Logo = () => {
       />
 
       <span className="ml-4 text-lg">
-        <strong>Ruan</strong> Silva
+        <strong>Ruan Silva</strong>
       </span>
     </div>
   );

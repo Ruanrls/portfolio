@@ -8,6 +8,10 @@ module.exports = {
     container: {
       center: true,
     },
+    fill: {
+      black: "#000",
+      white: "#fff",
+    },
   },
   darkMode: "class",
   plugins: [
