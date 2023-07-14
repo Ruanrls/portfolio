@@ -1,24 +1,24 @@
 {
     "index": {
-        "title": "Home",
+        "title": "🖖 Home",
         "theme": {
             "breadcrumb": false
         }
     },
     "about": {
-        "title": "Sobre",
+        "title": "💁‍♂️ Sobre",
         "theme": {
             "breadcrumb": false
         }
     },
     "projects": {
-        "title": "Projetos",
+        "title": "💼 Projetos",
         "theme": {
             "breadcrumb": false
         }
     },
     "events": {
-        "title": "Eventos",
+        "title": "🎉 Eventos",
         "theme": {
             "breadcrumb": false
         }
