@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { useRouter } from "next/router";
 import ChatHeaderIcon from "./src/components/ChatHeaderIcon";
 import Logo from "./src/components/Logo";
@@ -14,11 +13,15 @@ export default {
     icon: <ChatHeaderIcon width={24} height={24} />,
   },
   useNextSeoProps() {
-    const { asPath } = useRouter();
-    if (asPath !== "/") {
+    const { pathname } = useRouter();
+    if (!pathname.includes('index')) {
       return {
-        titleTemplate: "%s - My portfolio",
+        titleTemplate: "%s - Ruan",
       };
+    }
+
+    return  {
+      titleTemplate: "Ruan - Portfolio",
     }
   },
   i18n: [
